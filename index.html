@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Generador de Nombres</title>
+  </head>
+
+  <body >
+    <main> 
+         <img src="img/OG_22.jpg" alt="" class="fondo">     
+        <h1>YO SOY GUERRERO</h1>
+        <h2>Genera tu nombre.</h2>
+        <!-- ========== Start contenedor imagen========== -->
+        <div class="contendor">
+          <div id="imagen">
+            <hr class="start" />
+            <h3 contenteditable="true" spellcheck="false"></h3>
+            <img class="bird" alt="Logo_Pajaro" src="img/bird.svg" />
+            <p class="textoEslogan">#YO SOY GUERRERO</p>
+            <!-- ========== Start Conetendor Logos ========== -->
+            <div id="contenedorLogos" class="contenedorLogos">
+              <img
+                class="logo1"
+                alt="Logo Partido Liberal"
+                src="img/Liberal_logo.svg"
+              />
+              <img
+                class="logo2"
+                alt="Logo Pacto Histórico"
+                src="img/logo_pacto_historico.svg"
+              />
+              <img
+                class="logo3"
+                alt="Logo Partido ASI"
+                src="img/ASI_Logo.svg"
+              />
+            </div>
+            <hr class="end" />
+          </div>
+          <!-- ========== End Conetendor Logos ========== -->
+        </div>
+        <!-- ========== End contenedor ========== -->
+        <label
+          ><input type="checkbox" name="inputLogos" id="inputLogos" />
+          Logos</label
+        >
+
+        <div class="descargar">
+          <button
+            type="button"
+            id="botonDescarga"
+            class="boton-descarga"
+            onclick="download()"
+          >
+            Descargar imagen
+          </button>
+        </div>
+        <h2>¡Sumate!</h2>
+        <br />      
+    </main>
+  </body>
+  <script type="text/javascript" src="./js/html2canjas.js"></script>
+  <script type="text/javascript" src="./js/funtions.js"></script>
+  <script>
+    main();
+  </script>
+  <link rel="stylesheet" href="css/style.css" />
+</html>

@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  font-family: "Verdana", sans-serif;
+  text-align: center;
+  color: #111;   
+}
+
+
+
+.fondo{
+  background-size: cover;
+  opacity: 0.1;
+   /* Rellenamos el fondo */
+   min-height: 100%;
+   min-width: 800px;
+
+   /* Escalamiento proporcional */
+   width: 100%;
+   height: auto;
+
+   /* Posicionamiento */
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+ul {
+  list-style: none;
+}
+button,
+input,
+select {
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  border: 0px;
+}
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+iframe {
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Gotham Black";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Gotham Black"),
+    url("https://fonts.cdnfonts.com/s/14898/Gotham-Black.woff") format("woff");
+  font-display: swap;
+}
+:root {
+  --orange: #faa61a;
+  --indigo: #034ea2;
+  --red: #ee2524ee;
+  --green: #34ab49;
+  --plum: #903092;
+}
+
+a {
+  text-decoration: none;
+}
+h3:focus {
+  outline: none;
+}
+h3::-moz-focus-inner {
+  border: 0;
+}
+
+h1,
+h3 {
+  font-family: "Gotham Black", "Arial Black", sans-serif;
+  font-weight: 900;
+  display: inline-block;
+}
+h1 {
+  margin-top: 1rem;
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 8rem;
+  text-transform: uppercase;
+  letter-spacing: -0.15em;
+}
+.char {
+  mix-blend-mode: hard-light;
+  position: relative;
+}
+.char:nth-child(5n + 1) {
+  color: var(--orange);
+  z-index: calc(100);
+}
+.char:nth-child(5n + 2) {
+  color: var(--indigo);
+  z-index: calc(90);
+}
+.char:nth-child(5n + 3) {
+  color: var(--red);
+  z-index: calc(80);
+}
+.char:nth-child(5n + 4) {
+  color: var(--green);
+  z-index: calc(70);
+}
+.char:nth-child(5n + 5) {
+  color: var(--plum);
+  z-index: calc(60);
+}
+.bird {
+  height: 7rem;
+  margin-bottom: 3rem;
+  margin-left: -2rem;
+}
+.textoEslogan {
+  font-family: "Gotham Black", sans-serif;
+  font-size: 2rem;
+  color: var(--indigo);
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+.logo1{
+  width: 10rem;
+  height: 6rem;
+}
+
+.logo2{
+  height: 6rem;
+  height: 6rem;
+}
+
+.logo3{
+  width: 7rem;
+  height: 6rem;
+}
+
+hr.start {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+hr.end {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.boton-descarga {
+  margin: 16px 6px 2px 0;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px 12px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: 0;
+  float: center;
+  background-color: #55acee;
+}
+
+.descargar{
+  text-align: center;
+}
+
+.contenedor{
+  text-align: center;
+  padding: 5rem;
+}
