@@ -10,20 +10,24 @@ body {
 }
 
 
+.botones{
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
 
 .fondo{
   background-size: cover;
   opacity: 0.1;
    /* Rellenamos el fondo */
-   min-height: 100%;
-   min-width: 800px;
-
+   
    /* Escalamiento proporcional */
    width: 100%;
-   height: auto;
+   height: 100%;
 
    /* Posicionamiento */
-   position: fixed;
+   position:fixed; 
+   z-index: index 0;
    top: 0;
    left: 0;
 }
