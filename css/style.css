@@ -204,6 +204,11 @@ hr.end {
   padding: 5rem;
 }
 
+
+.imagen{
+background-color: #ffffff;
+}
+
 @media screen and (max-width: 415px){
 
   h1 {
